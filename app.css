@@ -21764,6 +21764,15 @@ iframe#viAd {
 .fa-question-circle:before {
     content: "\F059";
 }
+.fa-eye:before {
+    content: "\F06E";
+}
+.fa-check-square-o:before {
+    content: "\F046";
+}
+.fa-share-alt:before {
+    content: "\F1E0";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -22048,9 +22057,9 @@ img{
     top: 48px !important;
 }
 .bg-dang-nhap{
-    background-image: url(images/bg-dang-nhap.79c2401.jpg);
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    background-image: url(images/bg-dang-nhap.45aea82.jpg);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22106,12 +22115,33 @@ img{
     opacity: 0;
     cursor: pointer;
 }
-.panel {
-    width: 80vw;
+.style-item-after .item-after{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+.smart-select-page .page-content{
+    padding-top: 91px;
+}
+.style-text-search .item-title{
+    font-family: 'Roboto-Light' !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
 }
 .checked {
     color: orange;
-  }
+}
+.gauge-svg{
+    background: #fff;
+    border-radius: 100%;
+}
+.fs-auto{
+    font-size: 13px !important;
+}
+@media (max-width: 360px) {
+    .fs-auto{
+        font-size: 10px !important;
+    }
+}
 
 .title {
     color: #fff;
